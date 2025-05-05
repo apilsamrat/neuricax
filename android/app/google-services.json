@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1062597678372",
+    "project_id": "neuricax",
+    "storage_bucket": "neuricax.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062597678372:android:3ee49b45a89f4b808f4fb1",
+        "android_client_info": {
+          "package_name": "aprilsunmedia.neuricax"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5nxU3MJZownfMy44YTPJXPauObao2h4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062597678372:android:4d9be4a3cd29e46a8f4fb1",
+        "android_client_info": {
+          "package_name": "com.aprilsunmedia.neuricax"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5nxU3MJZownfMy44YTPJXPauObao2h4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

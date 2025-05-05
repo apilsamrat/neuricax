@@ -1,0 +1,1 @@
+│   ├── riverpod/                  # Global riverpod providers
