@@ -1,16 +1,83 @@
-# neuricax
+# 🧠 NeuricaX
 
-A new Flutter project.
+> AI-Driven Brain Tumor Detection and Classification — built with Flutter + TFLite.
 
-## Getting Started
+NeuricaX is a mobile-first health-tech solution that leverages on-device machine learning to detect and classify brain tumors from MRI scans. Designed to empower both patients and healthcare professionals, it delivers accurate predictions without needing cloud processing.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🧬 Detects: **Glioma**, **Meningioma**, **Pituitary Tumor**, and **No Tumor**
+- 🤖 On-device inference using **TensorFlow Lite**
+- 📷 MRI scan image picker and preview
+- 🔐 Secure, offline processing (no data leaves the device)
+- 💡 Minimal UI with intuitive UX for ease of use
+- 📊 Result visualization with probability scores
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Tech Stack
+
+- **Flutter** (Dart)
+- **TensorFlow Lite**
+- **tflite_flutter v0.11.0**
+- **Provider / Riverpod** (state management)
+- **Image Picker**, **Path Provider**, etc.
+
+---
+
+## 🧪 Model Details
+
+- Trained using a curated brain MRI dataset
+- Input: `224x224` preprocessed grayscale images
+- Output: Multiclass classification across 4 categories
+- Accuracy: ~95% (on validation set)
+
+---
+
+## 📦 Getting Started
+
+```bash
+git clone https://github.com/your-username/NeuricaX.git
+cd NeuricaX
+flutter pub get
+flutter run
+```
+
+> ⚠️ Make sure your emulator or physical device supports TFLite.
+
+---
+
+## 📁 Project Structure
+
+```
+lib/
+├── main.dart
+├── screens/
+├── widgets/
+├── services/
+└── model/
+assets/
+├── model.tflite
+└── labels.txt
+```
+
+---
+
+## 🙌 Team
+
+- 👨‍💻 Apil Samrat Poudel — Flutter Dev, AI Integration
+- 👩‍⚕️ [Name] — Medical Advisor, Clinical Validation
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for more info.
+
+---
+
+## 💬 Feedback
+
+Drop your thoughts, suggestions, or bugs [here](https://github.com/apilsamrat/NeuricaX/issues). We’re all ears. 👂
