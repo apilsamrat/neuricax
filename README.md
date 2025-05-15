@@ -39,7 +39,7 @@ NeuricaX is a mobile-first health-tech solution that leverages on-device machine
 ## 📦 Getting Started
 
 ```bash
-git clone https://github.com/your-username/NeuricaX.git
+git clone https://github.com/apilsamrat/neuricax.git
 cd NeuricaX
 flutter pub get
 flutter run
@@ -68,13 +68,6 @@ assets/
 ## 🙌 Team
 
 - 👨‍💻 Apil Samrat Poudel — Flutter Dev, AI Integration
-- 👩‍⚕️ [Name] — Medical Advisor, Clinical Validation
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for more info.
 
 ---
 
